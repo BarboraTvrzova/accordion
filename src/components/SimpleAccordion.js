@@ -116,7 +116,7 @@ export default function SimpleAccordion({ title }) {
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className={classes.orange} />}
-          aria-controls='panel2a-content'
+          aria-controls='panel3a-content'
           id='panel3a-header'
           className={classes.summary}
         >
@@ -138,7 +138,7 @@ export default function SimpleAccordion({ title }) {
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className={classes.orange} />}
-          aria-controls='panel2a-content'
+          aria-controls='panel4a-content'
           id='panel4a-header'
           className={classes.summary}
         >
@@ -160,7 +160,7 @@ export default function SimpleAccordion({ title }) {
       >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon className={classes.orange} />}
-          aria-controls='panel2a-content'
+          aria-controls='panel5a-content'
           id='panel5a-header'
           className={classes.summary}
         >

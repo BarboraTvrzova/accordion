@@ -8,7 +8,7 @@ const Faq = () => {
       <div className='faq-inner'>
         <div className='picture'>
           <div className='box'>
-            <img src='../images/illustration-box-desktop.svg' alt='' />
+            <img src='../images/illustration-box-desktop.svg' alt='illustration' />
           </div>
         </div>
         <div className='accordion'>
