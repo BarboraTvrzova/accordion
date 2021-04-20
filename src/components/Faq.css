@@ -1,0 +1,118 @@
+.faq-container {
+  height: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 920px;
+}
+
+.faq-inner {
+  width: 100%;
+  height: 509px;
+  background-color: #fff;
+  background-image: url(../images/light-background.svg);
+  background-repeat: no-repeat;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  padding-right: 95px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.picture {
+  position: absolute;
+  max-width: 60%;
+  width: 472px;
+  height: 359px;
+  left: 0;
+  top: 70px;
+  background: url('../images/illustration-woman-online-desktop.svg') no-repeat -84px
+    center/contain;
+}
+
+.box img {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: -90px;
+  top: 157px;
+  z-index: 10;
+}
+
+.accordion {
+  width: 350px;
+  max-width: 40%;
+  margin-left: auto;
+  height: 100%;
+  padding-top: 65px;
+}
+
+@media (max-width: 767px) {
+  .faq-container {
+    max-width: 500px;
+  }
+  .faq-inner {
+    background-image: url('../images/shadow.svg');
+    background-position: center -10px;
+    background-size: 250px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .picture {
+    top: -150px;
+    height: 250px;
+    width: 250px;
+    left: 25%;
+    background: url('../images/illustration-woman-online-desktop.svg') no-repeat
+      center center/contain;
+  }
+  .accordion {
+    margin: auto;
+    padding-top: 100px;
+    max-width: 100%;
+  }
+
+  .accordion h5 {
+    text-align: center;
+  }
+
+  .box img {
+    width: 100px;
+    height: 100px;
+    left: -5px;
+    top: 100px;
+  }
+}
+
+@media (max-width: 585px) {
+  .faq-container {
+    max-width: 327px;
+  }
+
+  .faq-inner {
+    height: 535px;
+    background-image: url('../images/shadow.svg');
+    background-position: center -10px;
+    background-size: 237px;
+    padding-right: 24px;
+    padding-left: 24px;
+    height: 535px;
+  }
+  .picture {
+    width: 237px;
+    height: 180px;
+    top: -108px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+  }
+
+  .box img {
+    width: 80px;
+    height: 80px;
+    left: -8px;
+    top: 70px;
+  }
+}
